@@ -1,0 +1,157 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+
+nav ul a,
+nav .brand-logo {
+  color: goldenrod;
+  font-size: 22px;
+}
+
+p {
+  line-height: 2rem;
+}
+
+.modal-content img{
+  width: 100%;
+}
+
+.sidenav-trigger {
+  color: goldenrod;
+}
+
+.parallax-container {
+  min-height: 750px;
+  line-height: 0;
+  height: auto;
+  color: rgba(255,255,255,.9);
+}
+  .parallax-container .section {
+    width: 100%;
+  }
+
+@media only screen and (max-width : 992px) {
+  .parallax-container .section {
+    position: absolute;
+    top: 40%;
+  }
+  #index-banner .section {
+    top: 10%;
+  }
+}
+
+@media only screen and (max-width : 600px) {
+  #index-banner .section {
+    top: 0;
+  }
+}
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+  font-size: inherit;
+}
+
+footer.page-footer {
+  margin: 0;
+}
+
+.page-footer{
+  background-color: white;
+}
+
+.sipnosis{
+  color: goldenrod;
+  margin: 50px;
+  text-align: center;
+  font-size: 25px;
+}
+
+#película{
+  background-color: goldenrod;
+  color: white;
+  border-radius: 20px;
+  cursor: pointer;
+  overflow: hidden;
+  display: inline-block;
+  transition: .3s ease-out;
+  letter-spacing: .5px;
+  text-decoration: none;
+  font-size: 20px;
+  margin-bottom: 30px;
+}
+
+#Login{
+  background-color: goldenrod;
+  color: white;
+  border-radius: 20px;
+  cursor: pointer;
+  overflow: hidden;
+  display: inline-block;
+  transition: .3s ease-out;
+  letter-spacing: .5px;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+#Login-sidenav{
+  background-color: goldenrod;
+  color: white;
+  border-radius: 20px;
+  cursor: pointer;
+  overflow: hidden;
+  display: inline-block;
+  transition: .3s ease-out;
+  letter-spacing: .5px;
+  text-decoration: none;
+  font-size: 14px;
+  margin-left: 45px;
+}
+
+#close-login{
+  margin-top: -50px;
+  color: goldenrod;
+}
+
+#password{
+  color: goldenrod;
+}
+
+#password-text{
+  color: goldenrod;
+}
+
+#row-password{
+  color: goldenrod;
+}
+
+#email{
+  color: goldenrod;
+}
+
+#email-text{
+  color: goldenrod;
+}
+
+#row-email{
+  color: goldenrod;
+}
+
+#ingresar{
+  background-color: goldenrod;
+  color: white;
+  border-radius: 20px;
+  cursor: pointer;
+  overflow: hidden;
+  display: inline-block;
+  transition: .3s ease-out;
+  letter-spacing: .5px;
+  text-decoration: none;
+  font-size: 20px;
+  margin-bottom: 30px;
+}
